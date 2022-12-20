@@ -1,11 +1,11 @@
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 
-canvas.width = innerWidth;
-canvas.height = innerHeight;
+canvas.width = innerWidth * 2;
+canvas.height = innerHeight * 2;
 
-const canW = innerWidth;
-const canH = innerHeight;
+const canW = innerWidth * 2;
+const canH = innerHeight * 2;
 
 let playerSpeed = 5;
 let playerSize = 15;
